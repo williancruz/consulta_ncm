@@ -42,12 +42,24 @@ def pesquisar_cest(ncm: str) -> list:
                """
 
     dados = cursor.execute(DQL_CEST, (ncm[:2], ncm[:4], ncm[:5], ncm[:6],
-                                      ncm[:7], ncm)
-                           ).fetchall()
+                                      ncm[:7], ncm)).fetchall()
     return dados
 
 
-def pesquisar_ncm(ncm: str) -> dict:
+def pesquisar_ncm(ncm: str) -> bool:
+    DQL_NCM = """SELECT COUNT(*) 
+                 FROM ncm_codigos 
+                 WHERE numero = ?"""
+
+    ncm_existe = cursor.execute(DQL_NCM, (ncm,)).fetchone()
+
+    if ncm_existe[0] == 1:
+        return True
+    else:
+        return False
+
+
+def pesquisar_ncm_hierarquia(ncm: str) -> dict:
     DQL_NCM = """SELECT numero, descricao 
                  FROM ncm_codigos 
                  WHERE numero = ? OR 
@@ -81,31 +93,34 @@ while True:
     elif len(ncm) < 8 or not ncm.isnumeric():
         print('NCM/SH Inválido! (incompleto ou contém letras/pontos)\n')
     else:
-        dados_cest = pesquisar_cest(ncm)
-        dados_ncm = pesquisar_ncm(ncm)
+        if pesquisar_ncm(ncm):  # verifica se o NCM/SH existe na base
+            dados_cest = pesquisar_cest(ncm)
+            dados_ncm = pesquisar_ncm_hierarquia(ncm)
 
-        if dados_cest:
-            for j in dados_ncm:
-                print(f'{formatar_ncm(j[0])} - {j[1]}')
+            if dados_cest:
+                for j in dados_ncm:
+                    print(f'{formatar_ncm(j[0])} - {j[1]}')
 
-            print('\n')
+                print('\n')
 
-            for i in dados_cest:
-                tabela.rows.append([i[0], i[1], i[3], i[2]])
+                for i in dados_cest:
+                    tabela.rows.append([i[0], i[1], i[3], i[2]])
 
-            print(tabela)
+                print(tabela)
+            else:
+                print("* Nenhum CEST definido para este NCM/SH * \n")
+
+                tabela.rows.append(['999.0', '01.999.00', 'Autopeças',
+                                    "Outras peças, partes e acessórios para "
+                                    "veículos automotores não relacionados nos "
+                                    "demais itens deste anexo."])
+
+                tabela.rows.append(['999.0', '28.999.00',
+                                    'Venda de mercadorias pelo sistema porta a porta',
+                                    'Outros produtos comercializados pelo sistema '
+                                    'de marketing direto porta-a-porta a '
+                                    'consumidor final não relacionados em outros '
+                                    'itens deste anexo.'])
+                print(tabela)
         else:
-            print("* Nenhum CEST definido para este NCM/SH * \n")
-
-            tabela.rows.append(['999.0', '01.999.00', 'Autopeças',
-                                "Outras peças, partes e acessórios para "
-                                "veículos automotores não relacionados nos "
-                                "demais itens deste anexo."])
-
-            tabela.rows.append(['999.0', '28.999.00',
-                                'Venda de mercadorias pelo sistema porta a porta',
-                                'Outros produtos comercializados pelo sistema '
-                                'de marketing direto porta-a-porta a '
-                                'consumidor final não relacionados em outros '
-                                'itens deste anexo.'])
-            print(tabela)
+            print("* NCM/SH não encontrado na tabela da Siscomex * \n")
