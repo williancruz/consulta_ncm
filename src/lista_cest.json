@@ -1,5 +1,5 @@
 {
-  "CONSOLIDADA": [
+  "ANEXO II": [
     {
       "ITEM": "1.0",
       "CEST": "01.001.00",
@@ -10,7 +10,7 @@
     {
       "ITEM": "2.0",
       "CEST": "01.002.00",
-      "NCM": "3917",
+      "NCM": 3917,
       "DESCRIÇÃO": "Tubos e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos",
       "REVOGADO": "0"
     },
@@ -94,7 +94,7 @@
     {
       "ITEM": "14.0",
       "CEST": "01.014.00",
-      "NCM": "6813",
+      "NCM": 6813,
       "DESCRIÇÃO": "Guarnições de fricção (por exemplo, placas, rolos, tiras, segmentos, discos, anéis, pastilhas), não montadas, para freios, embreagens ou qualquer outro mecanismo de fricção, à base de amianto, de outras substâncias minerais ou de celulose, mesmo combinadas com têxteis ou outras matérias",
       "REVOGADO": "0"
     },
@@ -136,14 +136,14 @@
     {
       "ITEM": "20.0",
       "CEST": "01.020.00",
-      "NCM": "7320",
+      "NCM": 7320,
       "DESCRIÇÃO": "Molas e folhas de molas, de ferro ou aço",
       "REVOGADO": "0"
     },
     {
       "ITEM": "21.0",
       "CEST": "01.021.00",
-      "NCM": "7325",
+      "NCM": 7325,
       "DESCRIÇÃO": "Obras moldadas, de ferro fundido, ferro ou aço, exceto as do código 7325.91.00",
       "REVOGADO": "0"
     },
@@ -923,7 +923,9 @@
       "NCM": "0",
       "DESCRIÇÃO": "Outras peças, partes e acessórios para veículos automotores não relacionados nos demais itens deste anexo",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO III": [
     {
       "ITEM": "1.0",
       "CEST": "02.001.00",
@@ -1098,7 +1100,9 @@
       "NCM": "2205|2206|2207|2208",
       "DESCRIÇÃO": "Outras bebidas alcoólicas não especificadas nos itens anteriores",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO IV": [
     {
       "ITEM": "1.0",
       "CEST": "03.001.00",
@@ -1413,7 +1417,9 @@
       "NCM": "2201.10.00",
       "DESCRIÇÃO": "Água mineral em embalagens retornáveis com capacidade igual ou superior a 20 (vinte) litros",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO V": [
     {
       "ITEM": "1.0",
       "CEST": "04.001.00",
@@ -1427,14 +1433,18 @@
       "NCM": "2403.1",
       "DESCRIÇÃO": "Tabaco para fumar, mesmo contendo sucedâneos de tabaco em qualquer proporção",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO VI": [
     {
       "ITEM": "1.0",
       "CEST": "05.001.00",
       "NCM": "2523",
       "DESCRIÇÃO": "Cimento",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO VII": [
     {
       "ITEM": "1.0",
       "CEST": "06.001.00",
@@ -1721,14 +1731,18 @@
       "NCM": "2710.20.00",
       "DESCRIÇÃO": "Óleos de petróleo ou de minerais betuminosos (exceto óleos brutos) e preparações não especificadas nem compreendidas noutras posições, que contenham, como constituintes básicos, 70% ou mais, em peso, de óleos de petróleo ou de minerais betuminosos, que contenham biodiesel, exceto os resíduos de óleos",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO VIII": [
     {
       "ITEM": "1.0",
       "CEST": "07.001.00",
       "NCM": "2716.00.00",
       "DESCRIÇÃO": "Energia elétrica",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO IX": [
     {
       "ITEM": "1.0",
       "CEST": "08.001.00",
@@ -1746,14 +1760,14 @@
     {
       "ITEM": "3.0",
       "CEST": "08.003.00",
-      "NCM": "6804",
+      "NCM": 6804,
       "DESCRIÇÃO": "Mós e artefatos semelhantes, sem armação, para moer, desfibrar, triturar, amolar, polir, retificar ou cortar; pedras para amolar ou para polir, manualmente, e suas partes, de pedras naturais, de abrasivos naturais ou artificiais aglomerados ou de cerâmica, mesmo com partes de outras matérias",
       "REVOGADO": "0"
     },
     {
       "ITEM": "4.0",
       "CEST": "08.004.00",
-      "NCM": "8201",
+      "NCM": 8201,
       "DESCRIÇÃO": "Pás, alviões, picaretas, enxadas, sachos, forcados e forquilhas, ancinhos e raspadeiras; machados, podões e ferramentas semelhantes com gume; tesouras de podar de todos os tipos; foices e foicinhas, facas para feno ou para palha, tesouras para sebes, cunhas e outras ferramentas manuais para agricultura, horticultura ou silvicultura",
       "REVOGADO": "0"
     },
@@ -1774,28 +1788,28 @@
     {
       "ITEM": "7.0",
       "CEST": "08.007.00",
-      "NCM": "8202",
+      "NCM": 8202,
       "DESCRIÇÃO": "Serras manuais e outras folhas de serras (incluídas as fresas-serras e as folhas não dentadas para serrar), exceto as classificadas nos CEST 08.005.00 e 08.006.00",
       "REVOGADO": "0"
     },
     {
       "ITEM": "8.0",
       "CEST": "08.008.00",
-      "NCM": "8203",
+      "NCM": 8203,
       "DESCRIÇÃO": "Limas, grosas, alicates (mesmo cortantes), tenazes, pinças, cisalhas para metais, corta-tubos, corta-pinos, saca-bocados e ferramentas semelhantes, manuais, exceto as pinças para sobrancelhas classificadas na posição 8203.20.90",
       "REVOGADO": "0"
     },
     {
       "ITEM": "9.0",
       "CEST": "08.009.00",
-      "NCM": "8204",
+      "NCM": 8204,
       "DESCRIÇÃO": "Chaves de porcas, manuais (incluídas as chaves dinamométricas); chaves de caixa intercambiáveis, mesmo com cabos",
       "REVOGADO": "0"
     },
     {
       "ITEM": "10.0",
       "CEST": "08.010.00",
-      "NCM": "8205",
+      "NCM": 8205,
       "DESCRIÇÃO": "Ferramentas manuais (incluídos os diamantes de vidraceiro) não especificadas nem compreendidas em outras posições, lamparinas ou lâmpadas de soldar (maçaricos) e semelhantes; tornos de apertar, sargentos e semelhantes, exceto os acessórios ou partes de máquinas-ferramentas; bigornas; forjas-portáteis; mós com armação, manuais ou de pedal",
       "REVOGADO": "0"
     },
@@ -1816,14 +1830,14 @@
     {
       "ITEM": "13.0",
       "CEST": "08.013.00",
-      "NCM": "8207",
+      "NCM": 8207,
       "DESCRIÇÃO": "Outras ferramentas intercambiáveis para ferramentas manuais, mesmo mecânicas, ou para máquinas-ferramentas (por exemplo, de embutir, estampar, puncionar, furar, tornear, aparafusar), incluídas as fieiras de estiragem ou de extrusão, para metais, e as ferramentas de perfuração ou de sondagem, exceto forma ou gabarito de produtos em epoxy e as classificadas no CEST 08.012.00",
       "REVOGADO": "0"
     },
     {
       "ITEM": "14.0",
       "CEST": "08.014.00",
-      "NCM": "8208",
+      "NCM": 8208,
       "DESCRIÇÃO": "Facas e lâminas cortantes, para máquinas ou para aparelhos mecânicos",
       "REVOGADO": "0"
     },
@@ -1844,21 +1858,21 @@
     {
       "ITEM": "17.0",
       "CEST": "08.017.00",
-      "NCM": "8211",
+      "NCM": 8211,
       "DESCRIÇÃO": "Facas de lâmina cortante ou serrilhada, incluídas as podadeiras de lâmina móvel, e suas lâminas, exceto as de uso doméstico",
       "REVOGADO": "0"
     },
     {
       "ITEM": "18.0",
       "CEST": "08.018.00",
-      "NCM": "8213",
+      "NCM": 8213,
       "DESCRIÇÃO": "Tesouras e suas lâminas",
       "REVOGADO": "0"
     },
     {
       "ITEM": "19.0",
       "CEST": "08.019.00",
-      "NCM": "8467",
+      "NCM": 8467,
       "DESCRIÇÃO": "Ferramentas pneumáticas, hidráulicas ou com motor (elétrico ou não elétrico) incorporado, de uso manual, exceto o descrito no CEST 08.019.01",
       "REVOGADO": "0"
     },
@@ -1872,7 +1886,7 @@
     {
       "ITEM": "20.0",
       "CEST": "08.020.00",
-      "NCM": "9015",
+      "NCM": 9015,
       "DESCRIÇÃO": "Instrumentos e aparelhos de geodesia, topografia, agrimensura, nivelamento, fotogrametria, hidrografia, oceanografia, hidrologia, meteorologia ou de geofísica, exceto bussolas; telêmetros",
       "REVOGADO": "0"
     },
@@ -1896,18 +1910,20 @@
       "NCM": "9025.19|9025.90.90",
       "DESCRIÇÃO": "Pirômetros, suas partes e acessórios",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO X": [
     {
       "ITEM": "1.0",
       "CEST": "09.001.00",
-      "NCM": "8539",
+      "NCM": 8539,
       "DESCRIÇÃO": "Lâmpadas elétricas",
       "REVOGADO": "0"
     },
     {
       "ITEM": "2.0",
       "CEST": "09.002.00",
-      "NCM": "8540",
+      "NCM": 8540,
       "DESCRIÇÃO": "Lâmpadas eletrônicas",
       "REVOGADO": "0"
     },
@@ -1931,11 +1947,13 @@
       "NCM": "8539.52.00",
       "DESCRIÇÃO": "Lâmpadas de LED (diodos emissores de luz)",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XI": [
     {
       "ITEM": "1.0",
       "CEST": "10.001.00",
-      "NCM": "2522",
+      "NCM": 2522,
       "DESCRIÇÃO": "Cal",
       "REVOGADO": "0"
     },
@@ -1963,28 +1981,28 @@
     {
       "ITEM": "5.0",
       "CEST": "10.005.00",
-      "NCM": "3916",
+      "NCM": 3916,
       "DESCRIÇÃO": "Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção",
       "REVOGADO": "0"
     },
     {
       "ITEM": "6.0",
       "CEST": "10.006.00",
-      "NCM": "3917",
+      "NCM": 3917,
       "DESCRIÇÃO": "Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção",
       "REVOGADO": "0"
     },
     {
       "ITEM": "7.0",
       "CEST": "10.007.00",
-      "NCM": "3918",
+      "NCM": 3918,
       "DESCRIÇÃO": "Revestimento de pavimento de PVC e outros plásticos",
       "REVOGADO": "0"
     },
     {
       "ITEM": "8.0",
       "CEST": "10.008.00",
-      "NCM": "3919",
+      "NCM": 3919,
       "DESCRIÇÃO": "Chapas, folhas, tiras, fitas, películas e outras formas planas, autoadesivas, de plásticos, mesmo em rolos, para uso na construção",
       "REVOGADO": "0"
     },
@@ -1998,35 +2016,35 @@
     {
       "ITEM": "10.0",
       "CEST": "10.010.00",
-      "NCM": "3921",
+      "NCM": 3921,
       "DESCRIÇÃO": "Telha de plástico, mesmo reforçada com fibra de vidro",
       "REVOGADO": "0"
     },
     {
       "ITEM": "11.0",
       "CEST": "10.011.00",
-      "NCM": "3921",
+      "NCM": 3921,
       "DESCRIÇÃO": "Cumeeira de plástico, mesmo reforçada com fibra de vidro",
       "REVOGADO": "0"
     },
     {
       "ITEM": "12.0",
       "CEST": "10.012.00",
-      "NCM": "3921",
+      "NCM": 3921,
       "DESCRIÇÃO": "Chapas, laminados plásticos em bobina, para uso na construção, exceto os descritos no CEST 10.010.00 e 10.011.00",
       "REVOGADO": "0"
     },
     {
       "ITEM": "13.0",
       "CEST": "10.013.00",
-      "NCM": "3922",
+      "NCM": 3922,
       "DESCRIÇÃO": "Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos",
       "REVOGADO": "0"
     },
     {
       "ITEM": "14.0",
       "CEST": "10.014.00",
-      "NCM": "3924",
+      "NCM": 3924,
       "DESCRIÇÃO": "Artefatos de higiene/toucador de plástico, para uso na construção",
       "REVOGADO": "0"
     },
@@ -2075,7 +2093,7 @@
     {
       "ITEM": "21.0",
       "CEST": "10.021.00",
-      "NCM": "4814",
+      "NCM": 4814,
       "DESCRIÇÃO": "Papel de parede e revestimentos de parede semelhantes; papel para vitrais",
       "REVOGADO": "0"
     },
@@ -2089,14 +2107,14 @@
     {
       "ITEM": "23.0",
       "CEST": "10.023.00",
-      "NCM": "6811",
+      "NCM": 6811,
       "DESCRIÇÃO": "Telha, cumeeira e caixa d’água, inclusive sua tampa, de fibrocimento, cimento-celulose",
-      "REVOGADO": "1"
+      "REVOGADO": 1
     },
     {
       "ITEM": "24.0",
       "CEST": "10.024.00",
-      "NCM": "6811",
+      "NCM": 6811,
       "DESCRIÇÃO": "Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto.",
       "REVOGADO": "0"
     },
@@ -2110,21 +2128,21 @@
     {
       "ITEM": "26.0",
       "CEST": "10.026.00",
-      "NCM": "6902",
+      "NCM": 6902,
       "DESCRIÇÃO": "Tijolos, placas (lajes), ladrilhos e peças cerâmicas semelhantes, para uso na construção, refratários, que não sejam de farinhas siliciosas fósseis nem de terras siliciosas semelhantes",
       "REVOGADO": "0"
     },
     {
       "ITEM": "27.0",
       "CEST": "10.027.00",
-      "NCM": "6904",
+      "NCM": 6904,
       "DESCRIÇÃO": "Tijolos para construção, tijoleiras, tapa-vigas e produtos semelhantes, de cerâmica",
       "REVOGADO": "0"
     },
     {
       "ITEM": "28.0",
       "CEST": "10.028.00",
-      "NCM": "6905",
+      "NCM": 6905,
       "DESCRIÇÃO": "Telhas, elementos de chaminés, condutores de fumaça, ornamentos arquitetônicos, de cerâmica, e outros produtos cerâmicos para uso na construção",
       "REVOGADO": "0"
     },
@@ -2138,21 +2156,21 @@
     {
       "ITEM": "30.0",
       "CEST": "10.030.00",
-      "NCM": "6907",
+      "NCM": 6907,
       "DESCRIÇÃO": "Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",
       "REVOGADO": "0"
     },
     {
       "ITEM": "30.1.",
       "CEST": "10.030.01",
-      "NCM": "6907",
+      "NCM": 6907,
       "DESCRIÇÃO": "Cubos, pastilhas e artigos semelhantes de cerâmica, mesmo com suporte, exceto os descritos CEST 10.030.00",
       "REVOGADO": "0"
     },
     {
       "ITEM": "31.0",
       "CEST": "10.031.00",
-      "NCM": "6910",
+      "NCM": 6910,
       "DESCRIÇÃO": "Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",
       "REVOGADO": "0"
     },
@@ -2166,21 +2184,21 @@
     {
       "ITEM": "33.0",
       "CEST": "10.033.00",
-      "NCM": "7003",
+      "NCM": 7003,
       "DESCRIÇÃO": "Vidro vazado ou laminado, em chapas, folhas ou perfis, mesmo com camada absorvente, refletora ou não, mas sem qualquer outro trabalho",
       "REVOGADO": "0"
     },
     {
       "ITEM": "34.0",
       "CEST": "10.034.00",
-      "NCM": "7004",
+      "NCM": 7004,
       "DESCRIÇÃO": "Vidro estirado ou soprado, em folhas, mesmo com camada absorvente, refletora ou não, mas sem qualquer outro trabalho",
       "REVOGADO": "0"
     },
     {
       "ITEM": "35.0",
       "CEST": "10.035.00",
-      "NCM": "7005",
+      "NCM": 7005,
       "DESCRIÇÃO": "Vidro flotado e vidro desbastado ou polido em uma ou em ambas as faces, em chapas ou em folhas, mesmo com camada absorvente, refletora ou não, mas sem qualquer outro trabalho",
       "REVOGADO": "0"
     },
@@ -2201,14 +2219,14 @@
     {
       "ITEM": "38.0",
       "CEST": "10.038.00",
-      "NCM": "7008",
+      "NCM": 7008,
       "DESCRIÇÃO": "Vidros isolantes de paredes múltiplas",
       "REVOGADO": "0"
     },
     {
       "ITEM": "39.0",
       "CEST": "10.039.00",
-      "NCM": "7016",
+      "NCM": 7016,
       "DESCRIÇÃO": "Blocos, placas, tijolos, ladrilhos, telhas e outros artefatos, de vidro prensado ou moldado, mesmo armado, para uso na construção; cubos, pastilhas e outros artigos semelhantes",
       "REVOGADO": "0"
     },
@@ -2243,7 +2261,7 @@
     {
       "ITEM": "43.0",
       "CEST": "10.043.00",
-      "NCM": "7213",
+      "NCM": 7213,
       "DESCRIÇÃO": "Outros vergalhões",
       "REVOGADO": "0"
     },
@@ -2271,7 +2289,7 @@
     {
       "ITEM": "46.0",
       "CEST": "10.046.00",
-      "NCM": "7307",
+      "NCM": 7307,
       "DESCRIÇÃO": "Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",
       "REVOGADO": "0"
     },
@@ -2306,7 +2324,7 @@
     {
       "ITEM": "51.0",
       "CEST": "10.051.00",
-      "NCM": "7310",
+      "NCM": 7310,
       "DESCRIÇÃO": "Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro fundido, ferro ou aço; próprias para a construção",
       "REVOGADO": "0"
     },
@@ -2320,7 +2338,7 @@
     {
       "ITEM": "53.0",
       "CEST": "10.053.00",
-      "NCM": "7314",
+      "NCM": 7314,
       "DESCRIÇÃO": "Telas metálicas, grades e redes, de fios de ferro ou aço",
       "REVOGADO": "0"
     },
@@ -2355,49 +2373,49 @@
     {
       "ITEM": "58.0",
       "CEST": "10.058.00",
-      "NCM": "7318",
+      "NCM": 7318,
       "DESCRIÇÃO": "Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, contrapinos ou troços, arruelas (anilhas) (incluindo as de pressão) e artigos semelhantes, de ferro fundido, ferro ou aço",
       "REVOGADO": "0"
     },
     {
       "ITEM": "59.0",
       "CEST": "10.059.00",
-      "NCM": "7323",
+      "NCM": 7323,
       "DESCRIÇÃO": "Palha de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00",
       "REVOGADO": "0"
     },
     {
       "ITEM": "59.1",
       "CEST": "10.059.01",
-      "NCM": "7323",
+      "NCM": 7323,
       "DESCRIÇÃO": "Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00",
       "REVOGADO": "0"
     },
     {
       "ITEM": "60.0",
       "CEST": "10.060.00",
-      "NCM": "7324",
+      "NCM": 7324,
       "DESCRIÇÃO": "Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço, incluídas as pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço, para uso na construção",
       "REVOGADO": "0"
     },
     {
       "ITEM": "61.0",
       "CEST": "10.061.00",
-      "NCM": "7325",
+      "NCM": 7325,
       "DESCRIÇÃO": "Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção",
       "REVOGADO": "0"
     },
     {
       "ITEM": "62.0",
       "CEST": "10.062.00",
-      "NCM": "7326",
+      "NCM": 7326,
       "DESCRIÇÃO": "Abraçadeiras",
       "REVOGADO": "0"
     },
     {
       "ITEM": "63.0",
       "CEST": "10.063.00",
-      "NCM": "7407",
+      "NCM": 7407,
       "DESCRIÇÃO": "Barras de cobre",
       "REVOGADO": "0"
     },
@@ -2411,14 +2429,14 @@
     {
       "ITEM": "65.0",
       "CEST": "10.065.00",
-      "NCM": "7412",
+      "NCM": 7412,
       "DESCRIÇÃO": "Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção",
       "REVOGADO": "0"
     },
     {
       "ITEM": "66.0",
       "CEST": "10.066.00",
-      "NCM": "7415",
+      "NCM": 7415,
       "DESCRIÇÃO": "Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",
       "REVOGADO": "0"
     },
@@ -2439,7 +2457,7 @@
     {
       "ITEM": "69.0",
       "CEST": "10.069.00",
-      "NCM": "7608",
+      "NCM": 7608,
       "DESCRIÇÃO": "Tubos de alumínio e suas ligas, para refrigeração e ar condicionado, para uso na construção",
       "REVOGADO": "0"
     },
@@ -2453,7 +2471,7 @@
     {
       "ITEM": "71.0",
       "CEST": "10.071.00",
-      "NCM": "7610",
+      "NCM": 7610,
       "DESCRIÇÃO": "Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas), de alumínio, exceto as construções pré-fabricadas da posição 9406; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções",
       "REVOGADO": "0"
     },
@@ -2467,7 +2485,7 @@
     {
       "ITEM": "73.0",
       "CEST": "10.073.00",
-      "NCM": "7616",
+      "NCM": 7616,
       "DESCRIÇÃO": "Outras obras de alumínio, próprias para construções, incluídas as persianas",
       "REVOGADO": "0"
     },
@@ -2481,7 +2499,7 @@
     {
       "ITEM": "75.0",
       "CEST": "10.075.00",
-      "NCM": "8301",
+      "NCM": 8301,
       "DESCRIÇÃO": "Fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns; exceto os de uso automotivo",
       "REVOGADO": "0"
     },
@@ -2495,31 +2513,33 @@
     {
       "ITEM": "77.0",
       "CEST": "10.077.00",
-      "NCM": "8307",
+      "NCM": 8307,
       "DESCRIÇÃO": "Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção",
       "REVOGADO": "0"
     },
     {
       "ITEM": "78.0",
       "CEST": "10.078.00",
-      "NCM": "8311",
+      "NCM": 8311,
       "DESCRIÇÃO": "Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",
       "REVOGADO": "0"
     },
     {
       "ITEM": "79.0",
       "CEST": "10.079.00",
-      "NCM": "8481",
+      "NCM": 8481,
       "DESCRIÇÃO": "Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",
       "REVOGADO": "0"
     },
     {
       "ITEM": "80.0",
       "CEST": "10.080.00",
-      "NCM": "7009",
+      "NCM": 7009,
       "DESCRIÇÃO": "Espelhos de vidro, mesmo emoldurados, exceto os de uso automotivo",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XII": [
     {
       "ITEM": "1.0",
       "CEST": "11.001.00",
@@ -2603,39 +2623,41 @@
       "NCM": "3923.2",
       "DESCRIÇÃO": "Sacos de lixo de conteúdo igual ou inferior a 100 litros",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XIII": [
     {
       "ITEM": "1.0",
       "CEST": "12.001.00",
-      "NCM": "8504",
+      "NCM": 8504,
       "DESCRIÇÃO": "Transformadores, bobinas de reatância e de auto indução, inclusive os transformadores de potência superior a 16 KVA, classificados nas posições 8504.33.00 e 8504.34.00; exceto os demais transformadores da subposição 8504.3, os reatores para lâmpadas elétricas de descarga classificados no código 8504.10.00, os carregadores de acumuladores do código 8504.40.10, os equipamentos de alimentação ininterrupta de energia (UPS ou “no break”), no código 8504.40.40 e os de uso automotivo",
       "REVOGADO": "0"
     },
     {
       "ITEM": "2.0",
       "CEST": "12.002.00",
-      "NCM": "8516",
+      "NCM": 8516,
       "DESCRIÇÃO": "Aquecedores elétricos de água, incluídos os de imersão, chuveiros ou duchas elétricos, torneiras elétricas, resistências de aquecimento, inclusive as de duchas e chuveiros elétricos e suas partes; exceto outros fornos, fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, classificados na posição 8516.60.00",
       "REVOGADO": "0"
     },
     {
       "ITEM": "3.0",
       "CEST": "12.003.00",
-      "NCM": "8535",
+      "NCM": 8535,
       "DESCRIÇÃO": "Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, corta-circuitos, para-raios, limitadores de tensão, eliminadores de onda, tomadas de corrente e outros conectores, caixas de junção), para tensão superior a 1.000V, exceto os de uso automotivo",
       "REVOGADO": "0"
     },
     {
       "ITEM": "4.0",
       "CEST": "12.004.00",
-      "NCM": "8536",
+      "NCM": 8536,
       "DESCRIÇÃO": "Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, relés, corta-circuitos, eliminadores de onda, plugues e tomadas de corrente, suportes para lâmpadas e outros conectores, caixas de junção), para uma tensão não superior a 1.000V; conectores para fibras ópticas, feixes ou cabos de fibras ópticas; exceto “starter” classificado na subposição 8536.50 e os de uso automotivo",
       "REVOGADO": "0"
     },
     {
       "ITEM": "5.0",
       "CEST": "12.005.00",
-      "NCM": "8538",
+      "NCM": 8538,
       "DESCRIÇÃO": "Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 8535 e 8536",
       "REVOGADO": "0"
     },
@@ -2656,17 +2678,19 @@
     {
       "ITEM": "8.0",
       "CEST": "12.008.00",
-      "NCM": "8546",
+      "NCM": 8546,
       "DESCRIÇÃO": "Isoladores de qualquer matéria, para usos elétricos",
       "REVOGADO": "0"
     },
     {
       "ITEM": "9.0",
       "CEST": "12.009.00",
-      "NCM": "8547",
+      "NCM": 8547,
       "DESCRIÇÃO": "Peças isolantes inteiramente de matérias isolantes, ou com simples peças metálicas de montagem (suportes roscados, por exemplo) incorporadas na massa, para máquinas, aparelhos e instalações elétricas; tubos isoladores e suas peças de ligação, de metais comuns, isolados interiormente",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XIV": [
     {
       "ITEM": "1.0",
       "CEST": "13.001.00",
@@ -2897,7 +2921,9 @@
       "NCM": "3926.90.90|9018.90.99",
       "DESCRIÇÃO": "Contraceptivos (dispositivos intrauterinos - DIU) - neutra",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XV": [
     {
       "ITEM": "1.0",
       "CEST": "14.001.00",
@@ -2995,7 +3021,9 @@
       "NCM": "4813.10.00",
       "DESCRIÇÃO": "Papel para cigarro",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XVI": [
     {
       "ITEM": "1.0",
       "CEST": "16.001.00",
@@ -3065,7 +3093,9 @@
       "NCM": "4013.20.00",
       "DESCRIÇÃO": "Câmaras de ar de borracha dos tipos utilizados em bicicletas",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XVII": [
     {
       "ITEM": "1.0",
       "CEST": "17.001.00",
@@ -4864,7 +4894,9 @@
       "NCM": "1806.20.00",
       "DESCRIÇÃO": "Outras preparações em blocos ou em barras, com peso superior a 2kg, ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo superior a 2kg",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XVIII": [
     {
       "ITEM": "1.0",
       "CEST": "19.001.00",
@@ -5102,7 +5134,9 @@
       "NCM": "7607.11.90",
       "DESCRIÇÃO": "Papel laminado e papel espelho",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XIX": [
     {
       "ITEM": "1.0",
       "CEST": "20.001.00",
@@ -5606,7 +5640,9 @@
       "NCM": "5601.21.10",
       "DESCRIÇÃO": "Algodão hidrófilo, não estéril, destinado à higiene pessoal.",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XX": [
     {
       "ITEM": "1.0",
       "CEST": "21.001.00",
@@ -6537,14 +6573,18 @@
       "NCM": "8517.62.77",
       "DESCRIÇÃO": "Aparelho emissor com receptor incorporado, digital, com tecnologias de transmissão/recepção sem fio, tela sensível ao toque “smartwatch”",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XXI": [
     {
       "ITEM": "1.0",
       "CEST": "22.001.00",
       "NCM": "2309",
       "DESCRIÇÃO": "Ração tipo “pet” para animais domésticos",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XXII": [
     {
       "ITEM": "1.0",
       "CEST": "23.001.00",
@@ -6558,7 +6598,9 @@
       "NCM": "1806|1901|2106|0404",
       "DESCRIÇÃO": "Preparados para fabricação de sorvete em máquina",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XXIII": [
     {
       "ITEM": "1.0",
       "CEST": "24.001.00",
@@ -6586,7 +6628,9 @@
       "NCM": "3204|3205.00.00|3206|3212",
       "DESCRIÇÃO": "Corantes para aplicação em bases, tintas e vernizes",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XXIV": [
     {
       "ITEM": "1.0",
       "CEST": "25.001.00",
@@ -6803,7 +6847,9 @@
       "NCM": "8704.51.00",
       "DESCRIÇÃO": "Outros veículos para transportes de mercadorias equipados para propulsão, simultaneamente, com motor de pistão de ignição por centelha (faísca) e motor elétrico de peso em carga máxima (bruto) não superior a 5 toneladas, exceto caminhão de peso em carga máxima superior a 3,9 toneladas",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XXV": [
     {
       "ITEM": "1.0",
       "CEST": "26.001.00",
@@ -6817,7 +6863,9 @@
       "NCM": "8711",
       "DESCRIÇÃO": "Bicicletas e outros ciclos (incluídos os triciclos) com propulsão de motor elétrico auxiliar assistido pela força humana.",
       "REVOGADO": "0"
-    },
+    }
+  ],
+  "ANEXO XXVI": [
     {
       "ITEM": "1.0",
       "CEST": "28.001.00",
